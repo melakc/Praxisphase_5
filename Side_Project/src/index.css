@@ -1,3 +1,6 @@
+.container {
+  padding-top: 50px;
+}
 .selector-for-some-widget {
     box-sizing: content-box;
   }
@@ -125,6 +128,40 @@
   .blog-post-meta {
     margin-bottom: 1.25rem;
     color: #999;
+  }
+  /*
+  * Social media Buttons
+  */
+  .social{
+    padding-top: 12px;
+    white-space: nowrap !important;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px;
+  }
+  .fa {
+    padding: 10px;
+    font-size:36px !important;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 1px;
+  }
+  
+  .fa:hover {
+      text-decoration: none;
+      color:pink;
+  }
+  
+  .fa-instagram {
+    /* background: #125688; */
+    color: black;
+  }
+  
+  .fa-pinterest {
+    /* background: #cb2027; */
+    color: black;
   }
   
   /*
